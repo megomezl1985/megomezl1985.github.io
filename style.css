@@ -1,45 +1,72 @@
 
-/* General page design */
+/* General website */
 
 body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: #333333;
-    max-width: 800px;
+
+    max-width: 850px;
     margin: 50px auto;
     padding: 20px;
-    line-height: 1.6;
+
+    line-height: 1.7;
 }
 
-/* Main heading */
+/* Header */
 
-h1 {
-    font-size: 32px;
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 34px;
     font-weight: normal;
-    color: #222222;
+    margin-bottom: 5px;
 }
 
-/* Section headings */
-
-h2 {
-    font-size: 23px;
-    color: #333333;
-    margin-top: 35px;
+header p {
+    margin: 3px 0;
+    color: #666666;
 }
 
-/* Paragraphs */
+/* Navigation */
 
-p {
-    font-size: 16px;
+nav {
+    margin: 25px 0;
+    padding: 12px 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
 
-/* Navigation links */
-
-a {
-    color: #2457a6;
+nav a {
+    margin-right: 22px;
+    color: #286090;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
+}
+
+/* Main content */
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* Links */
+
+a {
+    color: #286090;
+}
+
+a:hover {
+    color: #163d60;
 }
