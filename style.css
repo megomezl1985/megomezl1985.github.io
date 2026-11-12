@@ -151,3 +151,25 @@ nav a.active {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
+
+/* Research publication styling */
+
+.publication {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.publication p {
+    margin: 5px 0;
+}
+
+.publication strong {
+    font-weight: bold;
+}
+
+.publication em {
+    font-style: italic;
+}
+
