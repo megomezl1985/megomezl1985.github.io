@@ -142,3 +142,12 @@ a:hover {
     }
 
 }
+
+/* Active navigation link */
+
+nav a.active {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
