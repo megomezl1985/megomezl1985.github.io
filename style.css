@@ -1,0 +1,45 @@
+
+/* General page design */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333333;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Main heading */
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #222222;
+}
+
+/* Section headings */
+
+h2 {
+    font-size: 23px;
+    color: #333333;
+    margin-top: 35px;
+}
+
+/* Paragraphs */
+
+p {
+    font-size: 16px;
+}
+
+/* Navigation links */
+
+a {
+    color: #2457a6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
